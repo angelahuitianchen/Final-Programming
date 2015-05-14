@@ -1,16 +1,17 @@
 
 /* Moema */
 .button--moema {
+	position:center;
 	padding: 1.5em 5em;
 	border-radius: 50px;
-	background: rgba(17, 167, 167, 0.6);
+	background: #fee2a8;
 	color: #fff;
 	-webkit-transition: background-color 0.3s, color 0.3s;
 	transition: background-color 0.3s, color 0.3s;
 }
-.button--moema.button--inverted {
+/*.button--moema.button--inverted {
 	background: #ECEFF1;
-	color: #37474f;
+	color: #37474f;*/
 }
 .button--moema::before {
 	content: '';
@@ -30,7 +31,7 @@
 	-webkit-transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
 	transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
 	color: #ECEFF1;
-	background-color: #3f51b5;
+	background-color: #197b7b;
 	-webkit-animation: anim-moema-1 0.3s forwards;
 	animation: anim-moema-1 0.3s forwards;
 }
