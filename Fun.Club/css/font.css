@@ -8,7 +8,7 @@ body {
   display: table;
 }
 body{
-	background: pink;
+	background: #5fcdb7;
 }
 p{
   display: table-cell;
@@ -20,7 +20,7 @@ p{
 i {
   display: inline-block;
   font-style: normal;
-  color: rgba(17, 167, 167, 0.6);
+  color: #fee2a8;
   -webkit-transform: translate(0px, -100px) scale(1.1);
   text-shadow: 2px 2px 0 rgb(13, 117, 117), 2px 100px 20px rgba(0, 0, 0, 0.05);
 }
