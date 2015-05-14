@@ -1,0 +1,98 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: 'TeXGyreAdventorBold', arial, sans-serif;
+    letter-spacing: -1px;
+}
+h1{font-size: 200px;}
+ul,li{margin: 0;padding: 0;}
+li{list-style: none;float: left;}
+.hide{display: none;}
+.clear{clear:both;}
+.cl:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.cl { zoom: 1; }
+
+.inner.findOne,
+.inner.findTwo,
+.inner.findThree,
+.inner.findFour,
+.inner.findFive,
+.inner.findSix,
+.inner.findSeven,
+.inner.findEight,
+.inner.findNine,
+.inner.findTen,
+.inner.findEleven,
+.inner.findTwelve,
+.inner.findThirteen,
+.inner.findFourteen{width: 730px;height:380px;position: absolute;top: 50%;left: 50%;margin-left: -365px;margin-top: -190px;background: #c99f63;}
+#countdown,
+.repay{ display: none; width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: rgba(255,255,255,0.7); z-index: 10; text-align: center;}
+#countdown h1,
+.repay h1{position: relative;top: 50%;margin-top: -150px;color: #60cdb5;}
+.repay h1{background: url("../imgs/img_play-again.png") no-repeat center center;width: 252px;height: 60px;display: inline-block;position: absolute;top: 50%;text-indent: -99999;margin-top: -30px;}
+#retry{display: none;position: absolute;z-index: 5;left: 50%;bottom: 100px;margin-left: -80px;cursor: pointer;}
+#retry{ opacity: 0.5; -webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; transition: opacity 0.2s ease-out;}
+#retry:hover{opacity: 1;}
+h2{font-size: 48px;}
+#timer{position: absolute;left: 50%;bottom: 100px;width: 120px;margin-left: -60px;text-align: center;color: #fee2a0;}
+
+.findOne li{width: 182px;height: 190px;background: url("../imgs/1-1.gif") no-repeat center center;}
+.findOne li.ok{background-image:url("../imgs/1-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+.inner.findTwo{background: #9cb1c2;}
+.findTwo li{width: 146px;height: 126px;background: url("../imgs/2-2.gif") no-repeat center center;}
+.findTwo li.ok{background-image:url("../imgs/2-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+.inner.findThree{background: #ad7379;}
+.findThree li{width: 121px;height: 95px;background: url("../imgs/3-3.gif") no-repeat center center;}
+.findThree li.ok{background-image:url("../imgs/3-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+.inner.findFour{background: #503828;padding-top: 10px;}
+.findFour li{width: 104px;height: 76px;background: url("../imgs/4-4.gif") no-repeat center center;}
+.findFour li.ok{background-image:url("../imgs/4-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+.inner.findFive{background: #f9d54b;}
+.findFive li{width: 91px;height: 63px;background: url("../imgs/5-5.gif") no-repeat center center;}
+.findFive li.ok{background-image:url("../imgs/5-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+.inner.findSix{background: #e3a39e;}
+.findSix li{width: 60px;height: 54px;background: url("../imgs/6-6.gif") no-repeat center center;}
+.findSix li.ok{background-image:url("../imgs/6-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+.inner.findSeven{background: #f9d54b;}
+.findSeven li{width: 73px;height: 47px;background: url("../imgs/7-7.gif") no-repeat center center;}
+.findSeven li.ok{background-image:url("../imgs/7-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+.inner.findEight{background: #6ebec5;}
+.findEight li{width: 66px;height: 42px;background: url("../imgs/8-8.gif") no-repeat center center;}
+.findEight li.ok{background-image:url("../imgs/8-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+.inner.findNine{background: #eaa047;width: 722px;padding-left: 8px;}
+.findNine li{width: 60px;height: 38px;background: url("../imgs/9-9.gif") no-repeat center center;}
+.findNine li.ok{background-image:url("../imgs/9-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+.inner.findTen{background: #dd6857;}
+.findTen li{width: 56px;height: 34px;background: url("../imgs/10-10.gif") no-repeat center center;}
+.findTen li.ok{background-image:url("../imgs/10-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+.inner.findEleven{background: #4c7893;}
+.findEleven li{width: 52px;height: 31px;background: url("../imgs/11-11.gif") no-repeat center center;}
+.findEleven li.ok{background-image:url("../imgs/11-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+.inner.findTwelve{background: #fccf52;}
+.findTwelve li{width: 48px;height: 29px;background: url("../imgs/12-12.gif") no-repeat center center;}
+.findTwelve li.ok{background-image:url("../imgs/12-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+.inner.findThirteen{background: #4c7893;}
+.findThirteen li{width: 45px;height: 27px;background: url("../imgs/13-13.gif") no-repeat center center;}
+.findThirteen li.ok{background-image:url("../imgs/13-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+.inner.findFourteen{background: #7dc6d9;}
+.findFourteen li{width: 30px;height: 38px;background: url("../imgs/14-14.gif") no-repeat center center;}
+.findFourteen li.ok{background-image:url("../imgs/14-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}
+
+/*.inner.findFifteen{background: #503828;}
+.findFifteen li{width: 40.5px;height: 23.75px;background: url("../imgs/15-15.gif") no-repeat center center;}
+.findFifteen li.ok{background-image:url("../imgs/15-c.gif");-moz-transition: background 0.2s ease-out; -o-transition: background 0.2s ease-out; transition: background 0.2s ease-out;}*/
+
+.score{font-size: 30px;color: #fff;font-family: 'TeXGyreAdventorBold', arial, sans-serif;}
+
